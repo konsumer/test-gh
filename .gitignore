@@ -1,3 +1,4 @@
 node_modules
 *.log
 webroot/bundle.js
+.DS_Store

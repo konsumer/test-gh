@@ -28,8 +28,10 @@
   "gh-pages-deploy": {
     "staticpath": "webroot",
     "prep": [
-      "clean-source",
       "build"
+    ],
+    "post": [
+      "clean-source"
     ],
     "noprompt": true
   },

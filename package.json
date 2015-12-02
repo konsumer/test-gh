@@ -7,7 +7,7 @@
     "build": "browserify src/index.js | uglifyjs -cm > webroot/bundle.js",
     "start": "budo src/index.js:bundle.js --pushstate --live -v -t errorify --dir webroot ",
     "deploy": "gh-pages-deploy",
-    "clean-source": "rimraf README.md src webroot package.json"
+    "clean-source": "rimraf README.md src webroot"
   },
   "author": "David Konsumer <konsumer@jetboystudio.com>",
   "license": "MIT",
